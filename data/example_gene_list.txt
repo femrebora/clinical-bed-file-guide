@@ -1,0 +1,9 @@
+# Example gene list — one official HGNC symbol per line.
+# These are arbitrary, widely-known public genes used ONLY to demonstrate the
+# workflow. They are NOT a curated clinical panel. Replace them with your own
+# gene list before building a real BED file.
+TP53
+BRCA1
+BRCA2
+CFTR
+EGFR

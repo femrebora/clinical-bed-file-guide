@@ -1,0 +1,17 @@
+# SYNTHETIC / ILLUSTRATIVE EXAMPLE — NOT a real manufacturer target file.
+# Every coordinate below is invented for teaching and does NOT correspond to
+# any real kit design. Purpose: show the *format* of a clinical target BED.
+# Structure: BED4 = chromosome  start  end  gene_name   (tab-separated)
+# Naming style: Ensembl (no "chr" prefix), matching a GRCh37 Ensembl reference.
+# A real kit BED typically contains hundreds to thousands of such target rows,
+# one per targeted exon/region, across many genes.
+1	1000000	1000130	GENEA_EXAMPLE
+1	1002500	1002640	GENEA_EXAMPLE
+1	1005000	1005120	GENEA_EXAMPLE
+1	2000000	2000180	GENEB_EXAMPLE
+1	2003000	2003150	GENEB_EXAMPLE
+7	3000000	3000160	GENEC_EXAMPLE
+7	3004000	3004220	GENEC_EXAMPLE
+12	4000000	4000140	GENED_EXAMPLE
+20	5000000	5000200	GENEE_EXAMPLE
+X	6000000	6000170	GENEF_EXAMPLE

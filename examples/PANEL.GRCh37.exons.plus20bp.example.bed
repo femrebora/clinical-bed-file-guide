@@ -1,0 +1,18 @@
+# ILLUSTRATIVE EXAMPLE OUTPUT — synthetic coordinates, NOT a real panel.
+# This shows what scripts/make_panel_bed_grch37.sh produces: exons padded by
+# 20 bp and merged, BED with columns: chrom  start  end  gene_name(s).
+# Naming: Ensembl GRCh37 style (no "chr" prefix). Gene names and coordinates
+# below are arbitrary teaching examples. Regenerate a real file with:
+#   bash scripts/make_panel_bed_grch37.sh Homo_sapiens.GRCh37.dna.primary_assembly.fa.gz
+1	1000000	1000180	GENEA_EXAMPLE
+1	1002500	1002700	GENEA_EXAMPLE
+1	1005000	1005200	GENEA_EXAMPLE
+7	3000000	3000220	GENEB_EXAMPLE
+7	3004000	3004240	GENEB_EXAMPLE
+7	3009000	3009210	GENEB_EXAMPLE
+12	4000000	4000190	GENEC_EXAMPLE
+12	4006000	4006230	GENEC_EXAMPLE
+17	5000000	5000200	GENED_EXAMPLE
+17	5008000	5008250	GENED_EXAMPLE
+20	6000000	6000210	GENEE_EXAMPLE
+20	6007000	6007260	GENEE_EXAMPLE
